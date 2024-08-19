@@ -21,5 +21,6 @@ Finally, we cut the deserialization cost from 7.3ms to 1.6ms.
 
 # note
 * 项目使用了 Criterion 库来进行基准测试，而不是 Rust 的内置 benchmark 功能。Criterion 是一个更强大和灵活的基准测试框架。
+*  Criterion 提供了更详细的统计分析和更好的输出。它不需要 nightly Rust，可以在 stable Rust 上运行。 
 
 链接：https://mp.weixin.qq.com/s/ktOGySi9HJ31G2-IOfxHZw
