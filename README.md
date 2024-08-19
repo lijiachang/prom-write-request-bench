@@ -15,3 +15,11 @@ This repository contains several branches that each did some optimization effort
 - `step6/optimize-slice`: hack `Bytes::slice` while ensuring lifetime guarantee
 
 Finally, we cut the deserialization cost from 7.3ms to 1.6ms.
+
+# 改动
+在原有的代码中添加注释，方便学习
+
+# note
+* 项目使用了 Criterion 库来进行基准测试，而不是 Rust 的内置 benchmark 功能。Criterion 是一个更强大和灵活的基准测试框架。
+
+链接：https://mp.weixin.qq.com/s/ktOGySi9HJ31G2-IOfxHZw
